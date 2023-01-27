@@ -6,6 +6,9 @@ import {
 import { store } from "./states/Store";
 
 export function useClickCounter() {
+  /* is there any way to show current value of state from CounterState.js as "count" variable here?
+  i go forward step by step, so i try to do it with "Pure Redux"
+  I wanna use 5 exercises with 5 subjects; Redux, Redux-Toolkit, MiddleWare, Thunk, React-Redux*/
   const count = 0;
 
   store.subscribe(() => {
